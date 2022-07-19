@@ -10,6 +10,6 @@ view link: macrosoft.dothome.co.kr
 <br>
 microsoft 홈페이지
 <br>
-![image](https://user-images.githubusercontent.com/107266952/179738082-05662c2b-2286-40f2-8ef5-6e088796cac0.png)
+  ![image](https://user-images.githubusercontent.com/107266952/179738405-d4eaa56b-7f5b-4ed6-bdb6-995e9fc3e295.png)
 <br>
 html 레이아웃
