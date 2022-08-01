@@ -25,7 +25,7 @@ html 레이아웃
 
   초기화면으로는 로그인을 확인하고 db에 존재하는 계정을 입력시 페이지가 보입니다 .
   <br> 
-id:hyejun  pw: 1234 를 입력하시면 됩니다. 
+id:hyejun  pw: 1234 를 입력하시면 됩니다. 회원가입은 로그인 후에 가능합니다. 
 
 ![image](https://user-images.githubusercontent.com/107266952/182130141-e91ac982-6d6c-4268-89d8-ae420f917e27.png)
 로그인 후 홈화면이 나타납니다.
