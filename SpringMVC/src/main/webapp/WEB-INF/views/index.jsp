@@ -82,7 +82,9 @@ a {
 .sns_col> a:link a:visited {
     color: #000;
 }
-  
+  .text-dark {
+  color:#black;
+  }
   </style>
   
   <!-- fontawesome cdn 5 -->
@@ -117,8 +119,8 @@ a {
           <ul class="right-menu">
             <li><a href="#" class="sitemap">Microsoft 전체</a><i class="fas fa-chevron-down"></i></li>
             <li><a href="#" class="search">검색</a><i class="fas fa-search fa-rotate-90"></i></li>
-            <li><a href="#" class="cart">카트</a><i class="fas fa-shopping-cart"></i></li>
-            <li><a href="empform" class="login">로그인</a><i class="far fa-user-circle large"></i></li>
+            <li><a href="viewemp" class="cart">카트</a><i class="fas fa-shopping-cart"></i></li>
+            <li><a href="login/login" class="login">로그인</a><i class="far fa-user-circle large"></i></li>
           </ul>
           <div class="menu-btn">
             <i class="fas fa-bars fa-2x"></i> <!--fontawesome icon-->
@@ -316,20 +318,20 @@ a {
       
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+              <h5 class="text-uppercase mb-0">Microsoft Store</h5>
       
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-dark">Link 1</a>
+                  <a href="#!" class="text-dark">계정 프로필</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 2</a>
+                  <a href="#!" class="text-dark">다운로드 센터</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 3</a>
+                  <a href="#!" class="text-dark">Microsoft Store 지원</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 4</a>
+                  <a href="#!" class="text-dark">반품/환불</a>
                 </li>
               </ul>
             </div>
@@ -337,20 +339,20 @@ a {
       
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h5 class="text-uppercase">교육</h5>
       
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!" class="text-dark">Link 1</a>
+                  <a href="#!" class="text-dark">교육용 장치</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 2</a>
+                  <a href="#!" class="text-dark">교육용 Microsoft Teams</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 3</a>
+                  <a href="#!" class="text-dark">Office Education</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 4</a>
+                  <a href="#!" class="text-dark">교육자 트레이닝 및 개발</a>
                 </li>
               </ul>
             </div>
@@ -358,20 +360,20 @@ a {
       
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
+              <h5 class="text-uppercase mb-0">회사</h5>
       
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-dark">Link 1</a>
+                  <a style ="href="#!" class="text-dark">채용 정보</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 2</a>
+                  <a href="#!" class="text-dark">회사 뉴스</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 3</a>
+                  <a href="#!" class="text-dark">투자자</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 4</a>
+                  <a href="#!" class="text-dark">지속 가능성</a>
                 </li>
               </ul>
             </div>

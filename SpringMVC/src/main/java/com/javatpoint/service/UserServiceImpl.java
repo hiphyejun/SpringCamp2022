@@ -3,22 +3,20 @@ package com.javatpoint.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javatpoint.beans.UserVO;
-import com.javatpoint.dao.UserDao;
+import com.javatpoint.beans.Emp;
+import com.javatpoint.dao.EmpDao;
 
 @Service
-public class UserServiceImpl{
+public class UserServiceImpl {
+	
 	@Autowired
-	UserDao userDAO;
+	EmpDao empDao;
 	
-	public UserVO getUser(int id) {
-		return userDAO.getUser(id);
-	}
-
-	public UserVO getUser(UserVO vo) {
-		// TODO Auto-generated method stub
-		return null;
+	public Emp getUser(Emp vo) {
+		return empDao.getUser(vo);
 	}
 	
-	
+	public int insertAdmin() {
+		return empDao.insertAdmin();
+	}
 }
